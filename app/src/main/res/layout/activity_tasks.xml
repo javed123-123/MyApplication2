@@ -32,7 +32,8 @@
         android:clickable="true"
         app:srcCompat="@android:drawable/ic_input_add" />
 
-    <!-- <LinearLayout
+    <!-- optional linear layout xml code
+         <LinearLayout
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
          android:orientation="horizontal">
