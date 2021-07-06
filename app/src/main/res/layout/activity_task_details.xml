@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFCFC"
+    tools:context=".TaskDetails">
+
+    <Button
+        android:id="@+id/add_or_update"
+        android:layout_width="338dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="13dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:elevation="20dp"
+        android:text="UPDATE/CREATE TASK"
+        android:textColor="#F8F7F6"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="175dp"
+        android:layout_marginRight="175dp"
+        android:layout_marginBottom="563dp"
+        android:text="What is to be done?"
+        android:textColor="#673AB7"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/task_name"
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="501dp"
+        android:ems="10"
+        android:hint="Enter Task Here"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="271dp"
+        android:layout_marginRight="271dp"
+        android:layout_marginBottom="422dp"
+        android:text="Due date"
+        android:textColor="#673AB7"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="264dp"
+        android:layout_marginRight="264dp"
+        android:layout_marginBottom="310dp"
+        android:text="Due time"
+        android:textColor="#673AB7"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="165dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="185dp"
+        android:layout_marginRight="185dp"
+        android:layout_marginBottom="373dp"
+        android:hint="dd-MM-yyyy"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="108dp"
+        android:layout_height="44dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="239dp"
+        android:layout_marginRight="239dp"
+        android:layout_marginBottom="265dp"
+        android:hint="HH-mm"
+        android:textSize="24sp" />
+
+    <ImageButton
+        android:id="@+id/calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="122dp"
+        android:layout_marginRight="122dp"
+        android:layout_marginBottom="367dp"
+        app:srcCompat="@android:drawable/ic_menu_my_calendar" />
+
+    <ImageButton
+        android:id="@+id/alarm"
+        android:layout_width="56dp"
+        android:layout_height="49dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="175dp"
+        android:layout_marginRight="175dp"
+        android:layout_marginBottom="262dp"
+        app:srcCompat="@android:drawable/ic_lock_idle_alarm" />
+
+    <Button
+        android:id="@+id/delete_task"
+        android:layout_width="330dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginBottom="109dp"
+        android:background="#E91E63"
+        android:text="DELETE TASK"
+        android:textColor="#EDEAEA"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp" />
+</RelativeLayout>
